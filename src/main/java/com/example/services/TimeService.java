@@ -24,4 +24,5 @@ public class TimeService {
 	public Time get(@PathParam("timezone") String timezone) {
 		return new Time(TimeZone.getTimeZone(timezone.toUpperCase()));
 	}
+	
 }
