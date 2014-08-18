@@ -5,25 +5,18 @@ import javax.xml.bind.annotation.XmlRootElement;
 public class Name {
 
 
-	    private String firstName;
-	    private String lastName;
+	    private String name;
 	    
 	    public Name() {
-	        this.firstName = "andre";
+	        this.name = "andre";
 	    }
 
 	    public Name(String ln) {
-	    	this.firstName = "andre";
-	    	this.lastName = firstName + " " + ln;
+	    	this.name = "andre" + " " + ln;
 	    }
 
 		public String getFirstName() {
-			return firstName;
+			return name;
 		}
 
-		public String getLastName() {
-			return lastName;
-		}
-
-	    
 }
