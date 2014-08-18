@@ -6,19 +6,21 @@ import javax.ws.rs.PathParam;
 import javax.ws.rs.Produces;
 import javax.ws.rs.core.MediaType;
 
+import com.example.models.Name;
+
 @Path("/name")
 @Produces(MediaType.APPLICATION_JSON)
 public class NameService {
 
 	@GET
-	public String get() {
-		return "andre";
+	public Name get() {
+		return new Name();
 	}
 
 	@GET
 	@Path("/{lastName}")
-	public String get(@PathParam("lastName") String lastName) {
-		return "andre "+ lastName;
+	public Name get(@PathParam("lastName") String lastName) {
+		return new Name(lastName);
 	}
 
 }
