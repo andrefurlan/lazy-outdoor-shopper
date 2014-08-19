@@ -1,4 +1,4 @@
-package com.example;
+package com.lazyoutdoorshopper.andrefurlan;
 
 import org.eclipse.jetty.server.Server;
 import org.eclipse.jetty.webapp.WebAppContext;

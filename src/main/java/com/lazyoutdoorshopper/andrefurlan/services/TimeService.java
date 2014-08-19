@@ -1,8 +1,8 @@
-package com.example.services;
+package com.lazyoutdoorshopper.andrefurlan.services;
 
 import java.util.TimeZone;
 
-import com.example.models.Time;
+import com.lazyoutdoorshopper.andrefurlan.models.Time;
 
 import javax.ws.rs.GET;
 import javax.ws.rs.Path;
