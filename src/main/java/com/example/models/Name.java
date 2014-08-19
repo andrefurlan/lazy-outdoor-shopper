@@ -15,7 +15,7 @@ public class Name {
 	    	this.name = "andre" + " " + ln;
 	    }
 
-		public String getFirstName() {
+		public String getName() {
 			return name;
 		}
 
